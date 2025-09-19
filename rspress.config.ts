@@ -4,7 +4,7 @@ import { defineConfig } from 'rspress/config';
 export default defineConfig({
   outDir: './public',
   root: path.join(__dirname, 'docs'),
-  title: 'My Site',
+  title: 'electron-rs',
   icon: '/rspress-icon.png',
   logo: {
     light: '/rspress-light-logo.png',
@@ -15,7 +15,7 @@ export default defineConfig({
       {
         icon: 'github',
         mode: 'link',
-        content: 'https://github.com/web-infra-dev/rspress',
+        content: 'https://github.com/zuiaibaicaiya/electron-rs-docs.git',
       },
     ],
   },
