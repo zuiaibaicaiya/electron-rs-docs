@@ -15,7 +15,7 @@ export default defineConfig({
       {
         icon: 'github',
         mode: 'link',
-        content: 'https://github.com/zuiaibaicaiya/electron-rs-docs.git',
+        content: 'https://github.com/zuiaibaicaiya/create-electron-rs.git',
       },
     ],
   },
