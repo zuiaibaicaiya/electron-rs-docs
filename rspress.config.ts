@@ -11,6 +11,9 @@ export default defineConfig({
     dark: '/rspress-dark-logo.png',
   },
   themeConfig: {
+    outlineTitle: '目录',
+    prevPageText: '上一页',
+    nextPageText: '下一页',
     socialLinks: [
       {
         icon: 'github',
