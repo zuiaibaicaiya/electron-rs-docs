@@ -14,6 +14,7 @@ export default defineConfig({
     outlineTitle: '目录',
     prevPageText: '上一页',
     nextPageText: '下一页',
+    searchPlaceholderText: '搜索文档',
     socialLinks: [
       {
         icon: 'github',
