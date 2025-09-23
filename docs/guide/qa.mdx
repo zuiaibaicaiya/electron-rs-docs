@@ -1,0 +1,30 @@
+# Q&A
+
+## icon图标
+
+### 修改配置文件
+
+``` ts title="rspress.config.ts"
+        electronRs({
+            ignorePack: true,
+            appIcon: './256.ico',
+        })
+```
+
+### 修改配置文件
+
+``` ts title="main.ts"
+    import path from 'path'
+    const config: BrowserWindowConstructorOptions = {
+        icon: path.resolve(__dirname, '256.ico'),
+    }
+    mainWindow = new BrowserWindow(config)
+```
+
+### 修改package.json
+
+``` json title="package.json"
+    "build": {
+        "icon": "256.ico"
+    }
+```
